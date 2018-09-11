@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>06</title>
+</head>
+<body>
+   <script>
+       const MOT_TRIEU=1000000;
+       const MUOI_TRIEU=10000000;
+       let a= parseInt(prompt("NHap vao a :"));
+       let muc1= a*5/100;
+       let muc2= a*7/100;
+       let muc3=a*10/100;
+       if (a<=MOT_TRIEU) {
+           alert("Tien hao hong cua ban la " +muc1);
+       } else  if(a>MOT_TRIEU&&a<=MUOI_TRIEU) {
+           alert("Tien hoa hong cua ban la "+muc2);
+       }else {
+           alert("Tien hoa hong cua ban la "+muc3);
+       }
+   </script>
+
+</body>
+</html>
